@@ -1,7 +1,8 @@
 # MViTReg-IP Lung Analysis Architecture
 ![ ](https://github.com/bouthainas/MViTReg-IP/blob/main/MViTReg-IP.png)
 ## What is MViTReg-IP?
-MVitReg-IP is a multi-task deep learning algorithm that can quickly and effectively determine the severity of lung infection in patients with COVID-19 or similar lung diseases. This model is able to predict scores associated with different disease courses and the severity of lung infections. It is based on a dual transformer encoder, followed by a feature fusion module feeding two MLP regression heads to quantify CXR images with two scores simultaneously. One score is based on the spread of infection in the lungs, while the other measures how opaque the infected sites are. The work is under review. The source codes and results will be publicly available after integrating related comments.
+MVitReg-IP is a multi-task deep learning algorithm that can quickly and effectively determine the severity of lung infection in patients with COVID-19 or similar lung diseases. This model is able to predict scores associated with different disease courses and the severity of lung infections. It is based on a dual transformer encoder, followed by a feature fusion module feeding two MLP regression heads to quantify CXR images with two scores simultaneously. One score is based on the spread of infection in the lungs, while the other measures how opaque the infected sites are. 
+http://dx.doi.org/10.1109/TETCI.2024.3359082
 
 # Team
 ## Core Contributors
